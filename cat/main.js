@@ -8,7 +8,7 @@ function playCatSound(soundFile) {
 for (let i = 1; i <= 24; i++) {
   const button = document.getElementById(`button${i}`);
   button.addEventListener('click', function() {
-      playCatSound(`cat_sound${i}.wav`); // Replace with actual sound file names
+      playCatSound(`./cat-sounds/cat_sound${i}.wav`); // Replace with actual sound file names
   });
 }
 
